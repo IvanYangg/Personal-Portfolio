@@ -15,10 +15,9 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    apple,
+    spark, 
+    nuance,
     carrent,
     jobit,
     tripguide,
@@ -73,16 +72,8 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
     },
     {
       name: "Tailwind CSS",
@@ -97,141 +88,84 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
     },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Software Engineer Intern",
+      company_name: "Nuance Communications",
+      icon: nuance,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "May 2023 - August 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Incoming Summer internship experience. "
       ],
     },
+
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Software Developer",
+      company_name: "Boston University Spark! Fellowship",
+      icon: spark,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "January 2023 - May 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed a full-stack web application with a team of five using React, Firebase, and Scrum methodology that addresses stigmatized topics within women’s health by educating users through the aggregation of relevant articles, concise summaries, and resources onto a personalized dashboard.",   
+        "Executed agile development methodologies during a 10-week sprint, utilizing Jira to monitor sprint progress and product backlogs.",  
+        "Wrote python scripts that leverage third party APIs such as NewsAPI and OpenAI to retrieve/summarize articles from user queries to enhance user experience, invoking such scripts into the app using Firebase Cloud Functions." 
+      ],
+    },
+
+    {
+      title: "Product Zone Specialist",
+      company_name: "Apple",
+      icon: apple,
+      iconBg: "#383E56",
+      date: "November 2022 - February 2023",
+      points: [
+        "Leveraged extensive technical expertise to consult with 50+ customers per day and determine the optimal Apple product for their unique needs, generating about $10k+ revenue per day.",
+        "Provided comprehensive support for hardware specifications, iCloud integration, efficient data transfer and backup operations by keeping wait times under 1 hour, and seamless carrier activation processes.",
+        "Actively promoted a positive and collaborative work environment, thereby fostering the dynamic atmosphere intrinsic to the Apple Retail experience."
       ],
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "HualiDiscount",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to browse for clothes and add/remove items from cart.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
         },
         {
           name: "css",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: carrent,
+      source_code_link: "https://github.com/IvanYangg/Ecommerce-Website-Template-Project",
+    },
+    {
+      name: "Stake the Stigma",
+      description:
+        "Developed a full-stack web application with a team of five using React, Firebase, and Scrum methodology that addresses stigmatized topics within womens health by educating users through the aggregation of relevant articles, concise summaries, and resources onto a personalized dashboard.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: jobit,
+      source_code_link: "https://github.com/elaineleiyoung/StakeTheStigma",
     },
   ];
   
